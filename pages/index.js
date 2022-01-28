@@ -12,7 +12,13 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <div className='bg-white rounded-2xl shadow-2xl flex w-2/3 max-w-4xl'>
           <div className='w-3/5 p-5'>
-            <p>Sign in section</p>
+            <div className='text-left font-bold'>
+              <span className='text-blue-500'>Company</span>Name
+            </div>
+            <div className='py-10'>
+              <h2 className='text-3xl font-bold text-blue-500 mb-2'>Sign in to Account</h2>
+              <div className='border-2 w-10 border-blue-500 inline-block mb-2'></div>
+            </div>
           </div>{/* Sign in section */}
           <div className='w-2/5 bg-blue-500 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12'>
             <h2 className='text-3xl font-bold mb-2'>Hello Friend!</h2>
